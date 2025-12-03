@@ -10,6 +10,8 @@
         <nav>
             <a href="/">Home</a>
             <a href="/about">About Me</a>
+            <a href="/portfolio">Portfolio</a>
+
         </nav>
     </header>
     <main>
@@ -17,7 +19,9 @@
     </main>
     
     <footer class="page-footer">
-        <small>Copyright {{site.author}}</small>
+        <p><small>&copy; {{ "now" | date: "%Y" }} {{site.author}}</small></p>
+       <p><small><a href="{{site.themeUrl}}">{{site.theme}}</a> by <a href="{{site.themeAuthorUrl}}">{{site.themeAuthor}}</a></small></p>
+
     </footer>
 </body>
 </html>
