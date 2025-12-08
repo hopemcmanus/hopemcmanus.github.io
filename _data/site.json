@@ -1,6 +1,10 @@
 {
     "title": "Hope McManus",
-    "desc": "1-2 sentences about the site (optional)",
+    "desc": "Personal Website of Hope McManus",
     "author": "Hope McManus",
-    "baseurl": "https://eleventy-garden.netlify.app"
+    "theme": "Eleventy Garden",
+    "themeUrl":"https://github.com/binyamin/eleventy-garden/",
+    "themeAuthor": "Binyamin Aron Green",
+    "themeAuthorUrl": "https://binyam.in/",
+    "baseurl": "https://hopemcmanus.github.io"
 }
