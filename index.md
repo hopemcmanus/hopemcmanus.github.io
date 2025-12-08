@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: home
 ---
-# Hi
-I'm Hope McManus. I'm an educator and linguist from Sydney, Australia.
+<div id="homeimage">
+
+# Hope McManus
+</div>

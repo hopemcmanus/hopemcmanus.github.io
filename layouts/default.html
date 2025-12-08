@@ -5,11 +5,13 @@
 </head>
 <body>
     <header class="page-header">
-
+<div>
+    {{site.title}}
+</div>
 
         <nav>
             <a href="/">Home</a>
-            <a href="/about">About Me</a>
+            <a href="/about">About</a>
             <a href="/portfolio">Portfolio</a>
 
         </nav>
@@ -19,9 +21,18 @@
     </main>
     
     <footer class="page-footer">
+       <div>
+        <p>
+      <a href="mailto:hope.e.mcmanus@gmail.com"><small>hope.e.mcmanus (AT) gmail.com</small></a>   
+    </p>
+        <p>
+      <a href="/contact"><small>Contact</small></a>   
+    </p>
+    </div> 
+     <div>  
         <p><small>&copy; {{ "now" | date: "%Y" }} {{site.author}}</small></p>
        <p><small><a href="{{site.themeUrl}}">{{site.theme}}</a> by <a href="{{site.themeAuthorUrl}}">{{site.themeAuthor}}</a></small></p>
-
+    </div>
     </footer>
 </body>
 </html>
