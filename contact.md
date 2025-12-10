@@ -4,10 +4,6 @@ title: Contact
 ---
 # Contact
 
-## Email
-
-<a href="mailto:hope.e.mcmanus@gmail.com">hope.e.mcmanus (AT) gmail.com</a>   
-
 ## Social
 
 <ul id="social-links">
