@@ -641,6 +641,7 @@ Retrieved 2025-12-04, License - CC BY-SA 3.0
 .fs-form .fs-textarea {
   width: 100%;
   box-sizing: border-box;
+  border-radius: 0; /* sharp edges */
 }
 
 .fs-form .fs-field {
