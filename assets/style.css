@@ -613,20 +613,37 @@ fieldset {
 }
 
 
-<!--
+/*
 Source - https://stackoverflow.com/a
 Posted by Robert Koritnik, modified by community. See post 'Timeline' for change history
 Retrieved 2025-12-04, License - CC BY-SA 3.0
--->
+*/
 
-<!--
+/*
 Source - https://stackoverflow.com/a
 Posted by Yaerius, modified by community. See post 'Timeline' for change history
 Retrieved 2025-12-04, License - CC BY-SA 4.0
--->
+*/
 
-<!--
+/*
 Source - https://stackoverflow.com/a
 Posted by Gaunt
 Retrieved 2025-12-04, License - CC BY-SA 3.0
--->
+*/
+
+/* Formspree fixes only – additive, not destructive */
+
+.fs-form {
+  max-width: 520px;
+}
+
+.fs-form .fs-input,
+.fs-form .fs-textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.fs-form .fs-field {
+  display: flex;
+  flex-direction: column;
+}
