@@ -8,7 +8,7 @@ title: Portfolio
 
 <figure>
 
-![Comedies Wordcloud](/assets/comedies_wordcloud.png.png)
+![Comedies Wordcloud](/assets/comedies_wordcloud.png)
 
 </figure>
 
