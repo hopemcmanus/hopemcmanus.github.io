@@ -8,7 +8,7 @@ title: Portfolio
 
 <figure>
 
-![10-line Section Correlations in Hamlet](/assets/section_correlations_Hamlet.png)
+![Comedies Wordcloud](/assets/comedies_wordcloud.png.png)
 
 </figure>
 
@@ -16,7 +16,7 @@ title: Portfolio
 
 [Tidy Shakespeare](/portfolio/shakespeare)
 
-<p> Tidytext Analysis of Shakespeare plays</p>
+<p> Tidytext Analysis of 37 Shakespeare Plays</p>
 
 </div>
 </div>

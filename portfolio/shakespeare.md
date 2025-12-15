@@ -6,17 +6,20 @@ tags: ["R", "Shakespeare"]
 # Tidy Shakespeare
 {{ page.date | date: "%d %B, %Y" }}
 
-## Relationships between Words
+## Main site
+[Tidy Shakespeare](/tidy-shakespeare)
+
+### Most Frequent Words
 <figure>
 
-![10-line Section Correlations in Hamlet](/assets/section_correlations_Hamlet.png)
+![Most Frequent Words by Genre](/assets/genre_comparison.png)
 
-<figcaption><b>Figure:</b> 10-Line Section Correlations in Hamlet  
+<figcaption><b>Figure:</b> Most Frequent Words by Genre 
 </figcaption>
 
 </figure>
 
-## Sentiment
+### Sentiment
 
 How does sentiment differ between genres? 
 
