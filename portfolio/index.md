@@ -25,6 +25,8 @@ title: Portfolio
 <hr class="post-divider">
 
 
+## Linguistics
+
 
 <div class="flex">
 
@@ -36,9 +38,8 @@ title: Portfolio
 
 <div>
 
-## Linguistics
 
-[Other](/portfolio/other)
+[Other](/portfolio/linguistics)
 
 <p> Various Other Visualisations</p>
 

@@ -16,5 +16,4 @@ During my career, I've:
 - developed formal, abstract language models to predict what's (im)possible in language.
 
 
-
 This website was built with <a href="{{site.themeUrl}}">{{site.theme}}</a> and developed with <a href="(https://www.hubilla.dev/)">Tonio Hubilla</a>.
