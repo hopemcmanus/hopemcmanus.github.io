@@ -215,20 +215,22 @@ img {
     }
 
 
-ul#social-links a {
+ul#social-links {
     list-style: none;
     display: flex;
     gap: 1rem;
     margin: 0;
     padding: 0;
-    color: var(--accent);
-
-    img[src$=".svg"] {
-        width: 3ch;
-        height: 3ch;
-    }
 }
 
+ul#social-links a {
+    color: var(--accent);
+}
+
+ul#social-links svg {
+    width: 3ch;
+    height: 3ch;
+}
 body#home {
     background-image: url(/assets/westringia.jpeg);
     background-size: cover;
