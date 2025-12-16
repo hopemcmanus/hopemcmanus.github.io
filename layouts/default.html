@@ -9,6 +9,12 @@
     {{site.title}}
 </div>
 
+<button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
         <nav>
             <a href="/">Home</a>
             <a href="/about">About</a>
@@ -34,5 +40,10 @@
        <p><small><a href="{{site.themeUrl}}">{{site.theme}}</a> by <a href="{{site.themeAuthorUrl}}">{{site.themeAuthor}}</a></small></p>
     </div>
     </footer>
+    <script>
+    document.querySelector('.hamburger').addEventListener('click', function() {
+        document.querySelector('.page-header nav').classList.toggle('active');
+    });
+</script>
 </body>
 </html>

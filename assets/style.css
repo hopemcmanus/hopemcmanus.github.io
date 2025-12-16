@@ -20,16 +20,22 @@ body {
     margin: 0 24px;
 }
 
+
 @media only screen and (max-width: 468px) {
     .page-header {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .page-header nav {
+        margin-inline-start: 0;
     }
 }
 
 .page-header {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-between; */
     align-items: center;
     margin-top: 8px;
 }
@@ -225,6 +231,7 @@ body#home {
     background-image: url(/assets/westringia.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     color: white;
 }
 
@@ -647,4 +654,72 @@ Retrieved 2025-12-04, License - CC BY-SA 3.0
 .fs-form .fs-field {
   display: flex;
   flex-direction: column;
+}
+
+/* Hamburger button - hidden by default on desktop */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: transparent;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.hamburger span {
+    display: block;
+    width: 24px;
+    height: 3px;
+    background-color: currentColor;
+    transition: all 0.3s;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 468px) {
+    .page-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    /* Show hamburger on mobile */
+    .hamburger {
+        display: flex;
+        order: 2;
+    }
+    
+    /* Hide nav by default on mobile */
+    .page-header nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: 20px;
+        margin-inline-start: 0;
+    }
+    
+    /* Show nav when active */
+    .page-header nav.active {
+        display: flex;
+    }
+    
+    .page-header nav a {
+        margin: 10px 0;
+    }
+}
+
+/* Mobile styles for home page specifically */
+body#home .hamburger {
+    color: white;
+}
+
+body#home .page-header nav {
+    background: rgba(0, 0, 0, 0.9); /* Dark semi-transparent background */
+}
+
+body#home .page-header nav a {
+    color: white;
 }
