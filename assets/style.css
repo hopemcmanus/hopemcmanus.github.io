@@ -215,15 +215,17 @@ img {
     }
 
 
-ul#social-links {
+ul#social-links a {
     list-style: none;
     display: flex;
     gap: 1rem;
     margin: 0;
     padding: 0;
+    color: var(--accent);
 
     img[src$=".svg"] {
         width: 3ch;
+        height: 3ch;
     }
 }
 
