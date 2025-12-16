@@ -4,6 +4,8 @@ title: Portfolio
 ---
 # Portfolio
 
+## Text Analysis
+
 <div class="flex">
 
 <figure>
@@ -17,6 +19,28 @@ title: Portfolio
 [Tidy Shakespeare](/portfolio/shakespeare)
 
 <p> Tidytext Analysis of 37 Shakespeare Plays</p>
+
+</div>
+</div>
+<hr class="post-divider">
+
+
+
+<div class="flex">
+
+<figure>
+
+![Similarity Lattice](/assets/Similarity%20Lattice%20for%20r5s3.svg)
+
+</figure>
+
+<div>
+
+## Linguistics
+
+[Other](/portfolio/other)
+
+<p> Various Other Visualisations</p>
 
 </div>
 </div>
