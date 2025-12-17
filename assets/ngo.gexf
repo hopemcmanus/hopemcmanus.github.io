@@ -1,582 +1,318 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
-  <meta lastmodifieddate="2025-12-16">
+  <meta lastmodifieddate="2025-12-17">
     <creator>Gephi 0.10.1</creator>
     <title></title>
     <description></description>
   </meta>
   <graph defaultedgetype="undirected" mode="static">
-    <attributes class="node" mode="static">
-      <attribute id="degree" title="Degree" type="integer">
-        <default>0</default>
-      </attribute>
-      <attribute id="weighted degree" title="Weighted Degree" type="double">
-        <default>0.0</default>
-      </attribute>
-      <attribute id="eccentricity" title="Eccentricity" type="double">
-        <default>0.0</default>
-      </attribute>
-      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
-        <default>0.0</default>
-      </attribute>
-      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
-        <default>0.0</default>
-      </attribute>
-      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
-        <default>0.0</default>
-      </attribute>
-      <attribute id="modularity_class" title="Modularity Class" type="integer">
-        <default>0</default>
-      </attribute>
-      <attribute id="stat_inf_class" title="Inferred Class" type="integer">
-        <default>0</default>
-      </attribute>
+    <attributes class="edge" mode="static">
+      <attribute id="arrowhead" title="arrowhead" type="string"/>
     </attributes>
     <nodes>
-      <node id="B.Ia" label="Yupik.F:B.Ia">
-        <attvalues>
-          <attvalue for="degree" value="8"/>
-          <attvalue for="weighted degree" value="8.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.6129032258064516"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.7017543859649122"/>
-          <attvalue for="betweenesscentrality" value="3.608304603892839"/>
-          <attvalue for="modularity_class" value="0"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="-223.98422" y="495.02625"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="B.Ia" label="B.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="79.25353" y="-27.527962"/>
       </node>
-      <node id="Sp.R.Ia" label="Tashlhiyt Berber: Sp.R.Ia">
-        <attvalues>
-          <attvalue for="degree" value="9"/>
-          <attvalue for="weighted degree" value="9.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.6333333333333333"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.7280701754385964"/>
-          <attvalue for="betweenesscentrality" value="4.988369963369963"/>
-          <attvalue for="modularity_class" value="0"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="-278.0409" y="8.390523"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="B.Tr" label="B.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="15.423634" y="-17.347467"/>
       </node>
-      <node id="B.Tr" label="Spanish.F:B.Tr">
-        <attvalues>
-          <attvalue for="degree" value="12"/>
-          <attvalue for="weighted degree" value="12.0"/>
-          <attvalue for="eccentricity" value="2.0"/>
-          <attvalue for="closnesscentrality" value="0.7307692307692307"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.8157894736842105"/>
-          <attvalue for="betweenesscentrality" value="16.4671164619694"/>
-          <attvalue for="modularity_class" value="1"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="-136.46619" y="-234.02675"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="U.Sp.R.Ia" label="U.Sp.R.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="-80.69721" y="198.61162"/>
       </node>
-      <node id="Sp.R.Tr" label="Turkish Kabardian: Sp.R.Tr">
-        <attvalues>
-          <attvalue for="degree" value="6"/>
-          <attvalue for="weighted degree" value="6.0"/>
-          <attvalue for="eccentricity" value="2.0"/>
-          <attvalue for="closnesscentrality" value="0.59375"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.6578947368421053"/>
-          <attvalue for="betweenesscentrality" value="2.7505548373195428"/>
-          <attvalue for="modularity_class" value="2"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="-157.86603" y="-510.16672"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="U.Sp.R.Tr" label="U.Sp.R.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="-146.6792" y="148.42334"/>
       </node>
-      <node id="Sp.L.Ia" label="Dakota:Sp.L.Ia">
-        <attvalues>
-          <attvalue for="degree" value="6"/>
-          <attvalue for="weighted degree" value="6.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.5428571428571428"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.631578947368421"/>
-          <attvalue for="betweenesscentrality" value="0.6619047619047619"/>
-          <attvalue for="modularity_class" value="0"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="-532.60223" y="97.89807"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="U.Sp.L.Ia" label="U.Sp.L.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="-177.73233" y="63.697563"/>
       </node>
-      <node id="Sp.L.Tr" label="Pitjantjatjara: Sp.L.Tr">
-        <attvalues>
-          <attvalue for="degree" value="12"/>
-          <attvalue for="weighted degree" value="12.0"/>
-          <attvalue for="eccentricity" value="2.0"/>
-          <attvalue for="closnesscentrality" value="0.7307692307692307"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.8157894736842105"/>
-          <attvalue for="betweenesscentrality" value="22.940252639517347"/>
-          <attvalue for="modularity_class" value="2"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="-3.8571963" y="1.7066622"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="U.Sp.L.Tr" label="U.Sp.L.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="-210.69272" y="-13.073252"/>
       </node>
-      <node id="D.Tr.mL" label="D.Tr.mL">
-        <attvalues>
-          <attvalue for="degree" value="6"/>
-          <attvalue for="weighted degree" value="6.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.5277777777777778"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.6228070175438597"/>
-          <attvalue for="betweenesscentrality" value="0.7999999999999999"/>
-          <attvalue for="modularity_class" value="1"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="541.99744" y="29.807335"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="U.SD.L.Ia" label="U.SD.L.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="271.1803" y="47.04357"/>
       </node>
-      <node id="D.Tr.mR" label="D.Tr.mR">
-        <attvalues>
-          <attvalue for="degree" value="7"/>
-          <attvalue for="weighted degree" value="7.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.5757575757575758"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.6666666666666667"/>
-          <attvalue for="betweenesscentrality" value="2.5564425770308117"/>
-          <attvalue for="modularity_class" value="1"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="331.85764" y="-426.4667"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="U.SD.L.Tr" label="U.SD.L.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="208.96773" y="88.39203"/>
       </node>
-      <node id="WD.L.Tr.mL" label="Finnish. WD.L.Tr.mo.L">
-        <attvalues>
-          <attvalue for="degree" value="8"/>
-          <attvalue for="weighted degree" value="8.0"/>
-          <attvalue for="eccentricity" value="2.0"/>
-          <attvalue for="closnesscentrality" value="0.6333333333333333"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.7105263157894737"/>
-          <attvalue for="betweenesscentrality" value="4.8244254111901155"/>
-          <attvalue for="modularity_class" value="1"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="445.5104" y="265.46054"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="U.SD.R.Ia" label="U.SD.R.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="313.51962" y="-139.70271"/>
       </node>
-      <node id="Sp.L.Tr.mR.o" label="I/P 'hammock' Sp.L.Tr.mR.o">
-        <attvalues>
-          <attvalue for="degree" value="5"/>
-          <attvalue for="weighted degree" value="5.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.5588235294117647"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.6228070175438596"/>
-          <attvalue for="betweenesscentrality" value="1.7050366300366298"/>
-          <attvalue for="modularity_class" value="2"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="-378.16776" y="-375.17667"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="U.SD.R.Tr" label="U.SD.R.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="268.9738" y="-86.96135"/>
       </node>
-      <node id="WD.L.Tr.Mr.o" label="WD.L.Tr.mWD">
-        <attvalues>
-          <attvalue for="degree" value="9"/>
-          <attvalue for="weighted degree" value="9.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.6129032258064516"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.7192982456140351"/>
-          <attvalue for="betweenesscentrality" value="6.931932773109242"/>
-          <attvalue for="modularity_class" value="1"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="89.47386" y="-513.6707"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="Sp.R.Ia" label="Sp.R.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="-0.8608114" y="108.630844"/>
       </node>
-      <node id="WD.L.Tr.mR" label="WD.L.Tr.mo.R">
-        <attvalues>
-          <attvalue for="degree" value="5"/>
-          <attvalue for="weighted degree" value="5.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.5588235294117647"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.6228070175438596"/>
-          <attvalue for="betweenesscentrality" value="1.5560897435897436"/>
-          <attvalue for="modularity_class" value="1"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="474.90433" y="-220.01556"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="Sp.R.Tr" label="Sp.R.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="-66.29287" y="81.04987"/>
       </node>
-      <node id="SD.L.Tr.sR" label="SD.L.Tr.mt">
-        <attvalues>
-          <attvalue for="degree" value="9"/>
-          <attvalue for="weighted degree" value="9.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.6333333333333333"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.7280701754385964"/>
-          <attvalue for="betweenesscentrality" value="8.935382101558572"/>
-          <attvalue for="modularity_class" value="0"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="-133.00458" y="246.1475"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="Sp.L.Ia" label="Sp.L.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="-69.884094" y="14.079025"/>
       </node>
-      <node id="SD.L.Tr.Ml" label="South Conchucos Quechua: SD.L.Tr.Ml">
-        <attvalues>
-          <attvalue for="degree" value="9"/>
-          <attvalue for="weighted degree" value="9.0"/>
-          <attvalue for="eccentricity" value="2.0"/>
-          <attvalue for="closnesscentrality" value="0.6551724137931034"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.7368421052631579"/>
-          <attvalue for="betweenesscentrality" value="5.321008403361344"/>
-          <attvalue for="modularity_class" value="1"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="281.83514" y="462.65884"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="Sp.L.Tr" label="Sp.L.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="-105.59941" y="-56.112816"/>
       </node>
-      <node id="SD.L.Tr.mR" label="Émérillon: SD.L.Tr.mR">
-        <attvalues>
-          <attvalue for="degree" value="7"/>
-          <attvalue for="weighted degree" value="7.0"/>
-          <attvalue for="eccentricity" value="2.0"/>
-          <attvalue for="closnesscentrality" value="0.6129032258064516"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.6842105263157895"/>
-          <attvalue for="betweenesscentrality" value="3.945238095238095"/>
-          <attvalue for="modularity_class" value="1"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="278.1605" y="-2.3852017"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="WD.R.Tr" label="WD.R.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="-51.669247" y="-150.07645"/>
       </node>
-      <node id="SD.R.Tr.sR" label="SD.R.Tr.mt">
-        <attvalues>
-          <attvalue for="degree" value="10"/>
-          <attvalue for="weighted degree" value="10.0"/>
-          <attvalue for="eccentricity" value="2.0"/>
-          <attvalue for="closnesscentrality" value="0.6785714285714286"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.7631578947368421"/>
-          <attvalue for="betweenesscentrality" value="13.100024240465416"/>
-          <attvalue for="modularity_class" value="0"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="142.5109" y="235.32544"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="WD.L.Tr" label="WD.L.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="19.835142" y="-206.6141"/>
       </node>
-      <node id="SD.R.Tr.mR" label="SD.R.Tr.ms">
-        <attvalues>
-          <attvalue for="degree" value="9"/>
-          <attvalue for="weighted degree" value="9.0"/>
-          <attvalue for="eccentricity" value="2.0"/>
-          <attvalue for="closnesscentrality" value="0.6551724137931034"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.7368421052631579"/>
-          <attvalue for="betweenesscentrality" value="6.184147633412339"/>
-          <attvalue for="modularity_class" value="1"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="139.3942" y="-237.10126"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="WD.R.Ia" label="WD.R.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="113.723976" y="-240.46196"/>
       </node>
-      <node id="Sp.L.Tr.sR.o" label="I/F 'hammock' Sp.L.Tr.mSD.o">
-        <attvalues>
-          <attvalue for="degree" value="8"/>
-          <attvalue for="weighted degree" value="8.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.6129032258064516"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.7017543859649122"/>
-          <attvalue for="betweenesscentrality" value="4.464560439560439"/>
-          <attvalue for="modularity_class" value="0"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="-497.66888" y="-158.81221"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="WD.L.Ia" label="WD.L.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="188.44232" y="-217.55728"/>
       </node>
-      <node id="Sp.L.Tr.sR.X" label="I/F 'hammock' Sp.L.Tr.mSD.X">
-        <attvalues>
-          <attvalue for="degree" value="7"/>
-          <attvalue for="weighted degree" value="7.0"/>
-          <attvalue for="eccentricity" value="3.0"/>
-          <attvalue for="closnesscentrality" value="0.5588235294117647"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.6578947368421053"/>
-          <attvalue for="betweenesscentrality" value="0.8285714285714285"/>
-          <attvalue for="modularity_class" value="0"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="-413.918" y="318.90692"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="SD.R.Ia" label="SD.R.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="200.92957" y="-120.27193"/>
       </node>
-      <node id="Y" label="Italian.X: Y">
-        <attvalues>
-          <attvalue for="degree" value="10"/>
-          <attvalue for="weighted degree" value="10.0"/>
-          <attvalue for="eccentricity" value="2.0"/>
-          <attvalue for="closnesscentrality" value="0.6785714285714286"/>
-          <attvalue for="harmonicclosnesscentrality" value="0.7631578947368421"/>
-          <attvalue for="betweenesscentrality" value="6.430637254901961"/>
-          <attvalue for="modularity_class" value="0"/>
-          <attvalue for="stat_inf_class" value="0"/>
-        </attvalues>
-        <viz:size value="10.0"/>
-        <viz:position x="29.931736" y="516.49384"/>
-        <viz:color r="192" g="192" b="192"/>
+      <node id="SD.L.Ia" label="SD.L.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="192.88722" y="-44.954075"/>
+      </node>
+      <node id="SD.R.Tr" label="SD.R.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="135.25734" y="-57.95539"/>
+      </node>
+      <node id="SD.L.Tr" label="SD.L.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="112.877304" y="9.97884"/>
+      </node>
+      <node id="D.Tr" label="D.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="40.945026" y="-96.90235"/>
+      </node>
+      <node id="D.Ia" label="D.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="147.77316" y="-141.55635"/>
       </node>
     </nodes>
     <edges>
-      <edge id="0" source="B.Ia" target="Sp.R.Ia">
+      <edge id="0" source="B.Ia" target="B.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="1" source="B.Tr" target="Sp.R.Tr">
+      <edge id="1" source="U.Sp.R.Ia" target="U.Sp.R.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="2" source="Sp.L.Ia" target="Sp.R.Ia">
+      <edge id="2" source="U.Sp.R.Tr" target="U.Sp.L.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="3" source="Sp.L.Tr" target="Sp.R.Tr">
+      <edge id="3" source="U.Sp.L.Ia" target="U.Sp.L.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="4" source="B.Tr" target="D.Tr.mL">
+      <edge id="4" source="U.SD.L.Ia" target="U.SD.L.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="5" source="B.Tr" target="D.Tr.mR">
+      <edge id="5" source="U.SD.R.Ia" target="U.SD.R.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="6" source="Sp.L.Tr" target="WD.L.Tr.mL">
+      <edge id="6" source="Sp.R.Ia" target="Sp.R.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="7" source="B.Tr" target="Sp.L.Tr.mR.o">
+      <edge id="7" source="Sp.R.Tr" target="Sp.L.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="8" source="Sp.L.Tr.mR.o" target="WD.L.Tr.Mr.o">
+      <edge id="8" source="Sp.L.Ia" target="Sp.L.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="9" source="Sp.L.Tr" target="WD.L.Tr.mR">
+      <edge id="9" source="Sp.L.Tr" target="WD.R.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="10" source="Sp.L.Tr" target="Sp.L.Tr.mR.o">
+      <edge id="10" source="WD.R.Tr" target="WD.L.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="11" source="WD.L.Tr.mL" target="WD.L.Tr.Mr.o">
+      <edge id="11" source="WD.L.Tr" target="WD.R.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="12" source="WD.L.Tr.mR" target="WD.L.Tr.Mr.o">
+      <edge id="12" source="WD.R.Ia" target="WD.L.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="13" source="B.Ia" target="SD.L.Tr.sR">
+      <edge id="13" source="WD.L.Ia" target="SD.R.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="14" source="B.Tr" target="SD.L.Tr.Ml">
+      <edge id="14" source="SD.R.Ia" target="SD.L.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="15" source="B.Tr" target="SD.L.Tr.mR">
+      <edge id="15" source="SD.L.Ia" target="SD.R.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="16" source="B.Ia" target="SD.R.Tr.sR">
+      <edge id="16" source="SD.R.Tr" target="SD.L.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
       </edge>
-      <edge id="17" source="SD.L.Tr.sR" target="SD.R.Tr.sR">
+      <edge id="17" source="Sp.L.Tr" target="B.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="18" source="SD.L.Tr.Ml" target="SD.R.Tr.mR">
+      <edge id="18" source="Sp.L.Tr" target="U.Sp.L.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="19" source="SD.L.Tr.mR" target="SD.R.Tr.mR">
+      <edge id="19" source="Sp.L.Ia" target="B.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="20" source="Sp.L.Tr" target="SD.L.Tr.Ml">
+      <edge id="20" source="Sp.L.Ia" target="U.Sp.L.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="21" source="B.Ia" target="Sp.L.Tr.sR.o">
+      <edge id="21" source="Sp.R.Tr" target="B.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="22" source="B.Ia" target="Sp.L.Tr.sR.X">
+      <edge id="22" source="Sp.R.Tr" target="U.Sp.R.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="23" source="Sp.L.Tr.sR.o" target="SD.R.Tr.sR">
+      <edge id="23" source="Sp.R.Ia" target="B.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="24" source="Sp.L.Tr.sR.X" target="SD.L.Tr.sR">
+      <edge id="24" source="Sp.R.Ia" target="U.Sp.R.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="25" source="Sp.L.Ia" target="SD.L.Tr.sR">
+      <edge id="25" source="D.Tr" target="B.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="26" source="Sp.L.Tr" target="SD.L.Tr.mR">
+      <edge id="26" source="WD.L.Tr" target="D.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="27" source="Sp.L.Ia" target="Sp.L.Tr.sR.o">
+      <edge id="27" source="WD.R.Tr" target="D.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="28" source="Sp.L.Ia" target="Sp.L.Tr.sR.X">
+      <edge id="28" source="D.Ia" target="B.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="29" source="B.Ia" target="Sp.L.Ia">
+      <edge id="29" source="WD.L.Ia" target="D.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="30" source="B.Tr" target="Sp.L.Tr">
+      <edge id="30" source="WD.R.Ia" target="D.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="31" source="Sp.R.Tr" target="Sp.L.Tr.mR.o">
+      <edge id="31" source="SD.L.Tr" target="B.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="32" source="Sp.R.Tr" target="WD.L.Tr.Mr.o">
+      <edge id="32" source="SD.L.Ia" target="B.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="33" source="B.Tr" target="SD.R.Tr.mR">
+      <edge id="33" source="SD.R.Tr" target="B.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="34" source="Sp.R.Ia" target="Sp.L.Tr.sR.o">
+      <edge id="34" source="SD.R.Ia" target="B.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="35" source="Sp.R.Ia" target="SD.R.Tr.sR">
+      <edge id="35" source="SD.L.Tr" target="D.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="36" source="Sp.R.Ia" target="Sp.L.Tr.sR.X">
+      <edge id="36" source="SD.R.Tr" target="D.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="37" source="Sp.R.Tr" target="SD.R.Tr.mR">
+      <edge id="37" source="SD.L.Ia" target="D.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="38" source="B.Ia" target="B.Tr">
+      <edge id="38" source="SD.R.Ia" target="D.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="39" source="B.Ia" target="Y">
+      <edge id="39" source="SD.L.Tr" target="U.SD.L.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="40" source="Sp.L.Ia" target="Sp.L.Tr">
+      <edge id="40" source="SD.L.Ia" target="U.SD.L.Ia">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="41" source="Sp.R.Ia" target="Sp.R.Tr">
+      <edge id="41" source="SD.R.Tr" target="U.SD.R.Tr">
         <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
-      <edge id="42" source="SD.L.Tr.sR" target="SD.L.Tr.Ml">
+      <edge id="42" source="SD.R.Ia" target="U.SD.R.Ia">
         <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="43" source="SD.L.Tr.sR" target="SD.L.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="44" source="SD.R.Tr.sR" target="SD.R.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="45" source="SD.L.Tr.sR" target="SD.R.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="46" source="Sp.R.Ia" target="SD.L.Tr.sR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="47" source="B.Tr" target="Y">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="48" source="D.Tr.mR" target="SD.R.Tr.sR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="49" source="Sp.L.Tr.mR.o" target="Sp.L.Tr.sR.o">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="50" source="WD.L.Tr.Mr.o" target="SD.R.Tr.sR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="51" source="D.Tr.mL" target="SD.L.Tr.Ml">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="52" source="D.Tr.mR" target="SD.L.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="53" source="D.Tr.mL" target="SD.R.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="54" source="D.Tr.mR" target="SD.R.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="55" source="WD.L.Tr.mL" target="SD.L.Tr.Ml">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="56" source="Sp.L.Tr.sR.o" target="Sp.L.Tr.sR.X">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="57" source="WD.L.Tr.mR" target="SD.L.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="58" source="WD.L.Tr.Mr.o" target="SD.R.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="59" source="D.Tr.mL" target="WD.L.Tr.mL">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="60" source="D.Tr.mR" target="WD.L.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="61" source="D.Tr.mL" target="WD.L.Tr.Mr.o">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="62" source="D.Tr.mR" target="WD.L.Tr.Mr.o">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="63" source="Y" target="Sp.R.Ia">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="64" source="D.Tr.mL" target="D.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="65" source="B.Tr" target="WD.L.Tr.Mr.o">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="66" source="WD.L.Tr.mL" target="WD.L.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="67" source="Y" target="SD.R.Tr.sR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="68" source="Y" target="SD.L.Tr.sR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="69" source="SD.L.Tr.Ml" target="SD.L.Tr.mR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="70" source="SD.L.Tr.Ml" target="SD.R.Tr.sR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="71" source="Y" target="Sp.L.Tr.sR.o">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="72" source="Y" target="Sp.L.Tr.sR.X">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="73" source="Sp.L.Tr" target="Sp.R.Ia">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="74" source="Sp.L.Tr" target="Sp.L.Tr.sR.o">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="75" source="Sp.L.Tr" target="Sp.L.Tr.sR.X">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="76" source="WD.L.Tr.mL" target="SD.R.Tr.sR">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="77" source="Y" target="Sp.L.Tr">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="78" source="B.Tr" target="WD.L.Tr.mL">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="79" source="Y" target="SD.L.Tr.Ml">
-        <viz:color r="192" g="192" b="192"/>
-      </edge>
-      <edge id="80" source="Y" target="WD.L.Tr.mL">
-        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
       </edge>
     </edges>
   </graph>
