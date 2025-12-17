@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
   <meta/>
@@ -481,6 +482,323 @@
           <attvalue for="rawWeight" value="1"/>
         </attvalues>
         <viz:color r="204" g="204" b="204"/>
+=======
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2025-12-17">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="arrowhead" title="arrowhead" type="string"/>
+    </attributes>
+    <nodes>
+      <node id="B.Ia" label="B.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="79.25353" y="-27.527962"/>
+      </node>
+      <node id="B.Tr" label="B.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="15.423634" y="-17.347467"/>
+      </node>
+      <node id="U.Sp.R.Ia" label="U.Sp.R.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="-80.69721" y="198.61162"/>
+      </node>
+      <node id="U.Sp.R.Tr" label="U.Sp.R.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="-146.6792" y="148.42334"/>
+      </node>
+      <node id="U.Sp.L.Ia" label="U.Sp.L.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="-177.73233" y="63.697563"/>
+      </node>
+      <node id="U.Sp.L.Tr" label="U.Sp.L.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="-210.69272" y="-13.073252"/>
+      </node>
+      <node id="U.SD.L.Ia" label="U.SD.L.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="271.1803" y="47.04357"/>
+      </node>
+      <node id="U.SD.L.Tr" label="U.SD.L.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="208.96773" y="88.39203"/>
+      </node>
+      <node id="U.SD.R.Ia" label="U.SD.R.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="313.51962" y="-139.70271"/>
+      </node>
+      <node id="U.SD.R.Tr" label="U.SD.R.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="268.9738" y="-86.96135"/>
+      </node>
+      <node id="Sp.R.Ia" label="Sp.R.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="-0.8608114" y="108.630844"/>
+      </node>
+      <node id="Sp.R.Tr" label="Sp.R.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="-66.29287" y="81.04987"/>
+      </node>
+      <node id="Sp.L.Ia" label="Sp.L.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="-69.884094" y="14.079025"/>
+      </node>
+      <node id="Sp.L.Tr" label="Sp.L.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="-105.59941" y="-56.112816"/>
+      </node>
+      <node id="WD.R.Tr" label="WD.R.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="-51.669247" y="-150.07645"/>
+      </node>
+      <node id="WD.L.Tr" label="WD.L.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="19.835142" y="-206.6141"/>
+      </node>
+      <node id="WD.R.Ia" label="WD.R.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="113.723976" y="-240.46196"/>
+      </node>
+      <node id="WD.L.Ia" label="WD.L.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="188.44232" y="-217.55728"/>
+      </node>
+      <node id="SD.R.Ia" label="SD.R.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="200.92957" y="-120.27193"/>
+      </node>
+      <node id="SD.L.Ia" label="SD.L.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="192.88722" y="-44.954075"/>
+      </node>
+      <node id="SD.R.Tr" label="SD.R.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="135.25734" y="-57.95539"/>
+      </node>
+      <node id="SD.L.Tr" label="SD.L.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="112.877304" y="9.97884"/>
+      </node>
+      <node id="D.Tr" label="D.Tr">
+        <viz:size value="5.0"/>
+        <viz:position x="40.945026" y="-96.90235"/>
+      </node>
+      <node id="D.Ia" label="D.Ia">
+        <viz:size value="5.0"/>
+        <viz:position x="147.77316" y="-141.55635"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="B.Ia" target="B.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="U.Sp.R.Ia" target="U.Sp.R.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="U.Sp.R.Tr" target="U.Sp.L.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="U.Sp.L.Ia" target="U.Sp.L.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="U.SD.L.Ia" target="U.SD.L.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="U.SD.R.Ia" target="U.SD.R.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="Sp.R.Ia" target="Sp.R.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="Sp.R.Tr" target="Sp.L.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="Sp.L.Ia" target="Sp.L.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="Sp.L.Tr" target="WD.R.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="WD.R.Tr" target="WD.L.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="WD.L.Tr" target="WD.R.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="WD.R.Ia" target="WD.L.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="WD.L.Ia" target="SD.R.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="SD.R.Ia" target="SD.L.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="SD.L.Ia" target="SD.R.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="SD.R.Tr" target="SD.L.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues>
+          <attvalue for="arrowhead" value="none"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="Sp.L.Tr" target="B.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="18" source="Sp.L.Tr" target="U.Sp.L.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="19" source="Sp.L.Ia" target="B.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="20" source="Sp.L.Ia" target="U.Sp.L.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="21" source="Sp.R.Tr" target="B.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="22" source="Sp.R.Tr" target="U.Sp.R.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="23" source="Sp.R.Ia" target="B.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="24" source="Sp.R.Ia" target="U.Sp.R.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="25" source="D.Tr" target="B.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="26" source="WD.L.Tr" target="D.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="27" source="WD.R.Tr" target="D.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="28" source="D.Ia" target="B.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="29" source="WD.L.Ia" target="D.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="30" source="WD.R.Ia" target="D.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="31" source="SD.L.Tr" target="B.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="32" source="SD.L.Ia" target="B.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="33" source="SD.R.Tr" target="B.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="34" source="SD.R.Ia" target="B.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="35" source="SD.L.Tr" target="D.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="36" source="SD.R.Tr" target="D.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="37" source="SD.L.Ia" target="D.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="38" source="SD.R.Ia" target="D.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="39" source="SD.L.Tr" target="U.SD.L.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="40" source="SD.L.Ia" target="U.SD.L.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="41" source="SD.R.Tr" target="U.SD.R.Tr">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+      </edge>
+      <edge id="42" source="SD.R.Ia" target="U.SD.R.Ia">
+        <viz:color r="192" g="192" b="192"/>
+        <attvalues/>
+>>>>>>> 436c84a07f24c7c50440fcda6b3fc9ce952ba437
       </edge>
     </edges>
   </graph>
