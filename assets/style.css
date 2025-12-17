@@ -214,6 +214,9 @@ img {
       }
     }
 
+ul {
+  margin-block-end: 24px;
+}
 
 ul#social-links {
     list-style: none;
