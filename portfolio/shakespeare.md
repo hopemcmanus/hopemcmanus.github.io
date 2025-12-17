@@ -6,10 +6,13 @@ tags: ["R", "Shakespeare"]
 # Tidy Shakespeare
 {{ page.date | date: "%d %B, %Y" }}
 
-## Main site
-[Tidy Shakespeare](/tidy-shakespeare)
+[Tidy Shakespeare](/tidy-shakespeare) is the main website for this project.   
 
 ### Most Frequent Words
+*What are the top words of each Shakespeare genre?* 
+
+
+
 <figure>
 
 ![Most Frequent Words by Genre](/assets/genre_comparison.png)
@@ -21,7 +24,7 @@ tags: ["R", "Shakespeare"]
 
 ### Sentiment
 
-How does sentiment differ between genres? 
+*How does sentiment differ between genres?* 
 
 Comedies have positive sentiment throughout, while tragedies are progressively more negative.
 
@@ -33,6 +36,8 @@ Comedies have positive sentiment throughout, while tragedies are progressively m
 </figcaption>
 
 </figure>
+
+<p></p>
 
 <details> 
 

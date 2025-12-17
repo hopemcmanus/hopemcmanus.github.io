@@ -28,6 +28,27 @@ title: Portfolio
 ## Linguistics
 
 
+
+<div class="flex">
+
+<figure>
+
+![Typologies](/assets/typohedron.png)
+
+</figure>
+
+<div>
+
+
+[The Geometry of Typologies](/portfolio/stress/)
+
+<p> Exploring the geometric structures of typologies in Optimality Theory </p>
+
+</div>
+</div>
+<hr class="post-divider">
+
+
 <div class="flex">
 
 <figure>
@@ -39,9 +60,9 @@ title: Portfolio
 <div>
 
 
-[Other](/portfolio/linguistics)
+[Similarity Lattice](/portfolio/allomorphs)
 
-<p> Various Other Visualisations</p>
+<p>Mapping Similarities between Candidates</p>
 
 </div>
 </div>

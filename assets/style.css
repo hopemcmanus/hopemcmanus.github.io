@@ -727,3 +727,33 @@ body#home .page-header nav {
 body#home .page-header nav a {
     color: white;
 }
+
+/* LaTeX-style table */
+table {
+  border-collapse: collapse; /* combine borders */
+  width: auto;               /* table width auto like LaTeX */
+  margin: 1em 0;             /* spacing around table */
+  font-family: sans-serif;        /* classic LaTeX font */
+  text-align: center;        /* center content in cells */
+}
+
+/* Table headers */
+table th {
+  padding: 6px 12px;        /* padding like LaTeX */
+  border-bottom: 1px solid black; /* thin line under header */
+}
+
+/* Table cells */
+table td {
+  padding: 6px 12px;        /* consistent padding */
+}
+
+/* Thick top border (like \hline at top) */
+table tr:first-child th {
+  border-top: 2px solid black;
+}
+
+/* Thick bottom border (like \hline at bottom) */
+table tr:last-child td {
+  border-bottom: 2px solid black;
+}
