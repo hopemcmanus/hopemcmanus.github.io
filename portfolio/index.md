@@ -33,16 +33,16 @@ title: Portfolio
 
 <figure>
 
-![Typologies](/assets/typohedron.png)
+![Typologies](/assets/ngo.png)
 
 </figure>
 
 <div>
 
 
-[The Geometry of Typologies](/portfolio/stress/)
+[Language Typologies](/portfolio/stress/)
 
-<p> Exploring the geometric structures of typologies in Optimality Theory </p>
+<p> Exploring geometric structures of typologies in Optimality Theory </p>
 
 </div>
 </div>

@@ -9,7 +9,7 @@ tags: ["dot", "graphviz", "Optimality Theory"]
 
 <p></p>
 
-As part a [paper](https://roa.rutgers.edu/article/view/1424.html) for a Learnability seminar, I used dot to create similarity lattices. 
+As part a [term paper](https://roa.rutgers.edu/article/view/1424.html) for the Rutgers Learning and Linguistics Theory seminar in Spring 2014, I used dot to create similarity lattices. 
 
 <figure>
 

@@ -6,7 +6,7 @@ tags: ["R", "Shakespeare"]
 # Tidy Shakespeare
 {{ page.date | date: "%d %B, %Y" }}
 
-[Tidy Shakespeare](/tidy-shakespeare) is the main website for this project.   
+[Tidy Shakespeare](/tidy-shakespeare) is the main site for this project. For 37 Shakespeare plays from Project Gutenberg, this site provides downloadable files structured in a [tidy data format](https://www.tidytextmining.com/tidytext). For each play, it also presents tidy text analysis visualisations, including analysis of sentiment, word frequencies and correlations.  
 
 ### Most Frequent Words
 *What are the top words of each Shakespeare genre?* 
