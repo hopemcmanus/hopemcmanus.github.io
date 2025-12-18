@@ -15,4 +15,4 @@ During my career, I've:
 - analysed and classified information to create information catalogues and train AI systems, and
 - developed formal, abstract systems to explore what's (im)possible in language.
 
-This website was built with <a href="{{site.themeUrl}}">{{site.theme}}</a> and developed with <a href="https://www.hubilla.dev/">Tonio Hubilla</a>.
+This website was built with <a href="{{site.themeUrl}}">{{site.theme}}</a>, with initial guidance from <a href="https://www.hubilla.dev/">Tonio Hubilla</a>.
