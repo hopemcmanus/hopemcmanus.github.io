@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:viz="http:///www.gexf.net/1.1draft/viz">
+  <meta/>
+  <graph defaultedgetype="undirected">
+    <attributes class="node">
+      <attribute id="rawSize" title="rawSize" type="integer"/>
+    </attributes>
+    <attributes class="edge">
+      <attribute id="rawWeight" title="rawWeight" type="integer"/>
+    </attributes>
+    <nodes>
+      <node id="B.Tr" label="Spanish Truncation: [(.pó.lo.)]&lt;i,to>">
+        <attvalues>
+          <attvalue for="rawSize" value="5"/>
+        </attvalues>
+        <viz:color r="200" g="223" b="237"/>
+        <viz:size value="5"/>
+        <viz:position x="199.6249805644207" y="348.203805609801"/>
+      </node>
+      <node id="U.Sp.L.Tr" label="Areyonga Teenage Pitjantjatjara: &lt;uny>[(.tju.ri).nyi.]">
+        <attvalues>
+          <attvalue for="rawSize" value="5"/>
+        </attvalues>
+        <viz:color r="254" g="198" b="172"/>
+        <viz:size value="5"/>
+        <viz:position x="311.75599322910574" y="649.6202703899618"/>
+      </node>
+      <node id="U.SD.L.Tr" label="South Conchucos Quechua Truncation: [(.mú.)(ná.sha.)]&lt;tsu̥>">
+        <attvalues>
+          <attvalue for="rawSize" value="5"/>
+        </attvalues>
+        <viz:color r="254" g="198" b="172"/>
+        <viz:size value="5"/>
+        <viz:position x="873.0628981707331" y="796.920323724154"/>
+      </node>
+      <node id="Sp.L.Tr" label=" Pitjantjatjara: [(pít.jan).yang.ka] ">
+        <attvalues>
+          <attvalue for="rawSize" value="5"/>
+        </attvalues>
+        <viz:color r="255" g="255" b="223"/>
+        <viz:size value="5"/>
+        <viz:position x="-105.11746841736066" y="129.91215030672672"/>
+      </node>
+      <node id="WD.L.Tr" label="Finnish: [(má.ta.)la.]">
+        <attvalues>
+          <attvalue for="rawSize" value="5"/>
+        </attvalues>
+        <viz:color r="254" g="198" b="172"/>
+        <viz:size value="5"/>
+        <viz:position x="693.4893817056942" y="213.58957135654444"/>
+      </node>
+      <node id="SD.L.Tr" label="South Conchucos Quechua: [(.pí.)(tá.pis.)]">
+        <attvalues>
+          <attvalue for="rawSize" value="5"/>
+        </attvalues>
+        <viz:color r="200" g="223" b="237"/>
+        <viz:size value="5"/>
+        <viz:position x="948.6217327947631" y="554.6940036167847"/>
+      </node>
+      <node id="D.Tr" label="(Unsupported): {-Xu-}&lt;σ>; {-Xu-Xu-} ">
+        <attvalues>
+          <attvalue for="rawSize" value="5"/>
+        </attvalues>
+        <viz:color r="200" g="223" b="237"/>
+        <viz:size value="5"/>
+        <viz:position x="-7.411924030950072" y="-5.946229584609639"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="17" source="Sp.L.Tr" target="B.Tr" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="18" source="Sp.L.Tr" target="U.Sp.L.Tr" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="25" source="D.Tr" target="B.Tr" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="26" source="WD.L.Tr" target="D.Tr" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="31" source="SD.L.Tr" target="B.Tr" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="35" source="SD.L.Tr" target="D.Tr" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+      <edge id="39" source="SD.L.Tr" target="U.SD.L.Tr" weight="1">
+        <attvalues>
+          <attvalue for="rawWeight" value="1"/>
+        </attvalues>
+        <viz:color r="204" g="204" b="204"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
