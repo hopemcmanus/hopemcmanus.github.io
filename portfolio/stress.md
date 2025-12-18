@@ -9,7 +9,7 @@ tags: ["Optimality Theory", "Gephi"]
 
 <p></p>
 
-As part my [Ph.D. dissertation](https://roa.rutgers.edu/article/view/1583.html), I investigate formal, abstract systems within [Optimality Theory](#references) (OT) using [OTWorkplace](#OTWorkplace), an environment that calculates and displays key OT objects including the typology and can export data to visualise a Typohedron, a graphic representation of a typology, in applications such as yEd or Gephi. 
+As part my [Ph.D. dissertation](https://roa.rutgers.edu/article/view/1583.html), I investigate formal, abstract systems within [Optimality Theory](#references) (OT) using [OTWorkplace](#OTWorkplace), an environment that calculates and displays OT objects and can export data to visualise a Typohedron, a graphic representation of a typology, in applications such as yEd or Gephi. 
 
 <p></p>
 <figure>
@@ -28,7 +28,7 @@ As part my [Ph.D. dissertation](https://roa.rutgers.edu/article/view/1583.html),
 
 ![Typohedron](/assets/ngX.f.pf.png)
 
-<figcaption><b>Figure:</b> A Typohedron for a stress-prosodic system nGo calculated in OTWorkplace. Language names  refer to Properties [<a href="https://lite.gephi.org/?file=https://raw.githubusercontent.com/hopemcmanus/hopemcmanus.github.io/main/assets/ngo.json"   target="_blank" 
+<figcaption><b>Figure:</b> A Typohedron for a stress-prosodic system calculated in OTWorkplace. Language names  refer to Properties [<a href="https://lite.gephi.org/?file=https://raw.githubusercontent.com/hopemcmanus/hopemcmanus.github.io/main/assets/ngo.json"   target="_blank" 
    rel="noopener noreferrer">Explore in Gephi Lite</a>] [<a href="https://github.com/hopemcmanus/OTWorkplace/blob/582c6da0fcf3beea71e931d75679d15a180b3c7f/OT%20Workplace%20Files/nGX.f.pf%20encyclo.xlsx"   target="_blank" 
    rel="noopener noreferrer">Download the OTWorkplace Book</a>] 
 
